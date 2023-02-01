@@ -74,14 +74,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
         },
-       announcementBar: {
-      id: 'support_us',
-      content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: false,
-    },
+       
         items: [
           {
             type: 'doc',
@@ -141,6 +134,15 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Equipa de Developers Afeganistão, feito com Docusaurus. Servidores e Publicação pelo o CloudFare.`,
+        
+      },
+      announcementBar: {
+      id: 'support_us',
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
       },
       prism: {
         theme: lightCodeTheme,

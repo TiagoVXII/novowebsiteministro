@@ -139,10 +139,10 @@ const config = {
       announcementBar: {
       id: 'support_us',
       content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      backgroundColor: '#fafbfc',
+        'Site em construção, problemas com o código? Fale com TiagoLobo19',
+      backgroundColor: '##FF0000',
       textColor: '#091E42',
-      isCloseable: false,
+      isCloseable: true,
       },
       prism: {
         theme: lightCodeTheme,

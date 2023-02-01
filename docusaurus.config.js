@@ -140,7 +140,7 @@ const config = {
       id: 'support_us',
       content:
         'Site em construção, problemas com o código? Fale com TiagoLobo19',
-      backgroundColor: '##FF0000',
+      backgroundColor: '#0000001a',
       textColor: '#091E42',
       isCloseable: true,
       },

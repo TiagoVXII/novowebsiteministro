@@ -74,11 +74,6 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
         },
-        colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true,
-        respectPrefersColorScheme: false
-      },
        
         items: [
           {
@@ -149,6 +144,11 @@ const config = {
       textColor: '#091E42',
       isCloseable: true,
       },
+      colorMode: {
+     defaultMode: 'dark',
+     disableSwitch: true,
+    respectPrefersColorScheme: false
+      }
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

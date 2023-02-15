@@ -74,6 +74,11 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
         },
+        colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
+      },
        
         items: [
           {

@@ -94,15 +94,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentos',
-                to: '/',
-              },
-            ],
-          },
-          {
+            
             title: 'Community',
             items: [
               {
